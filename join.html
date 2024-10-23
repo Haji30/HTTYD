@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Now</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+    <header>
+        <img src="img/httyd.png" alt="How to Train Your Dragon">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <audio controls autoplay>
+            <source src="HTTYD-bg-music.mp3">
+        </audio>
+    </header>
+    <div class="bg">
+        <img src="img/this is berk.jpg" class="h2">
+    </div>
+    <main>
+        <a href="index.html"><img src="img/arrow.png" alt="Back"></a>
+        <h2>New Member Registration</h2>
+        <form>
+            <div class="self">
+                    <input class="si" type="text" id="firstname" name="firstname" placeholder="First Name" required>    
+                    <input class="si" type="text" id="lastname" name="lastname" placeholder="Last Name" required>    
+                    <input class="si" type="number" name="age" id="age" min="13" max="60" placeholder="Age" required>
+            </div>
+            <br>
+            <div class="info">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <br>
+            <div class="info">
+                <label for="choices">Class of Dragon you Would Like to Train</label>
+                <select name="dragons" id="choices" required>
+                    <option value="boulder">Boulder Class</option>
+                    <option value="mystery">Mystery Class</option>
+                    <option value="sharp">Sharp Class</option>
+                    <option value="stoker">Stoker Class</option>
+                    <option value="strike">Strike Class</option>
+                    <option value="tidal">Tidal Class</option>
+                    <option value="tracker">Tracker Class</option>
+                </select>
+            </div>
+            <br>
+            <div class="dragonname">
+                <input type="text" name="dragonname" id="dragonname" placeholder="Dragon's Name">
+            </div>
+            <br>
+            <div>
+                <textarea name="reason" id="reason" rows="6" placeholder="Share your reason/s to be a dragon rider..."></textarea>
+            </div>
+            <button type="submit">Join now</button>
+        </form>
+    </main>
+    
+</body>
+</html>
+
+ 

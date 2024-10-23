@@ -1,0 +1,193 @@
+body, ul, li, h1, h2, h3, a{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #444444;
+}
+header{
+    background-color: #000000;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+header img{
+    max-width: 20%;
+}
+.logo img{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: white;
+    width: 5%;
+    border-radius: 50px;
+    z-index: 2;
+}
+.berk{
+    position: relative;
+}
+.berk img{
+    max-width: 100%;
+}
+.berk .welcome{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    max-width: 50%;
+}
+.main-nav, .nav{
+    box-shadow: 0 5px 20px #000000;
+    background-color: #272727;
+    padding: 10px;
+}
+.nav{
+    background-color: #222222;
+    position: sticky;
+    top: 161px;
+}
+.main-nav ul, .nav ul{
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-nav li{
+    display: inline-block;
+    font-size: 20px;
+    width: 33%;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    font-size: 16px;
+    width: 12%;
+    text-align: center;
+    color: #ffffff;
+}
+.main-nav li a, .nav li a{
+    padding: 20px;
+    text-decoration: none;
+    font: bold;
+    color: #ffffff;
+}
+.nav li a.current{
+    color: orangered;
+}
+.main{
+    padding: 50px;
+    text-align: center;
+}
+.main img{
+    max-width: 80%;
+    padding: 10px;
+}
+.dragons{
+    padding: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+h2{
+    border: 3px solid #222222;
+    background-color: #272727;
+    font-size: 2em;
+    color: red;
+}
+h3 p{
+    letter-spacing: 10px;
+    color: orangered;
+    font-family: norse;
+    font-weight: 1;
+}
+.dragons div{
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid #222222;
+    margin-bottom: 20px;
+    background-color: #272727;
+    border-radius: 36px;
+}
+.dragons strong{
+    font-size: 1.2em;
+}
+.dragons img{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+.contact h3{
+    color: black;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    color: white;
+    opacity: 50%;
+}
+strong{
+    color: red;
+}
+footer {
+    background-color: #272727;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.logo img:hover{
+    box-shadow: 0 0 20px #bd1010;
+}
+nav li a:hover{
+    text-decoration: underline orangered; 
+    color: red;
+    text-shadow: 0 0 10px #000000;
+}
+
+
+@font-face{
+    font-family: norse;
+    src: url(Norse.ttf);
+}
+
+@media screen and (max-width: 960px){
+    .nav{
+        top: 124px;
+    }
+}
+@media screen and (max-width: 700px){
+    body, ul, li, h1, h2, h3, a{
+        font-size: .9em;
+    }
+    .nav{
+        top: 100px;
+    }
+}
+@media screen and (max-width: 560px){
+    body, ul, li, h1, h2, h3, a{
+        font-size: .8em;
+    }
+    .main-nav li{
+        display: block;
+        width: 100%;
+        font-size: 10px;
+    }
+    .nav li{
+        font-size: 10px;
+    }
+    .main-nav li a{
+        text-align: center;
+    }
+    .nav{
+        top: 84px;
+    }
+    .main-nav, .nav{
+        padding: 5px;
+    }
+}

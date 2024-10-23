@@ -1,0 +1,160 @@
+body, ul, li, h1, h2, h3, a{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #444444;
+}
+header{
+    background-color: #000000;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+header img{
+    max-width: 20%;
+}
+.logo img{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: white;
+    width: 5%;
+    border-radius: 50px;
+    z-index: 2;
+}
+.berk{
+    position: relative;
+}
+.berk img{
+    max-width: 100%;
+}
+.berk .welcome{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    max-width: 50%;
+}
+.main-nav{
+    box-shadow: 0 5px 20px #000000;
+    background-color: #272727;
+    padding: 10px;
+}
+.main-nav ul{
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-nav li{
+    display: inline-block;
+    font-size: 20px;
+    width: 33%;
+    text-align: center;
+}
+.main-nav li a{
+    padding: 20px;
+    text-decoration: none;
+    font: bold;
+    color: #ffffff;
+}
+h1{
+    padding: 10px;
+    background-color: #272727;
+}
+article{
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.picture{
+    border: 3px solid #222222;
+    background-color: #272727;
+    border-radius: 36px;
+    text-align: center;
+    white-space: nowrap;
+}
+.picture li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+    list-style-type: none;
+}
+.picture img{
+    max-width: 80%;
+}
+a{
+    color: red;
+}
+
+
+
+
+.contact{
+    text-align: center;
+}
+.contact p{
+    opacity: 50%;
+}
+footer {
+    background-color: #272727;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+nav li a:hover{
+    text-decoration: underline orangered; 
+    color: red;
+    text-shadow: 0 0 10px #000000;
+}
+article img:hover{
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px#000000;
+}
+.logo img:hover{
+    box-shadow: 0 0 20px #bd1010;
+}
+
+
+
+
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width: 700px){
+    body, ul, li, h1, h2, a{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 560px){
+    body, ul, li, h1, h2, a{
+        font-size: .8em;
+    }
+    .main-nav li{
+        display: block;
+        width: 100%;
+        font-size: 10px;
+    }
+    .main-nav li a{
+        text-align: center;
+    }
+    .main-nav, .nav{
+        padding: 5px;
+    }
+    .picture li{
+        width: 80%;
+        margin: 50px auto;
+        display: block;
+    }
+}
